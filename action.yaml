@@ -1,0 +1,14 @@
+name: "My Custom Action"
+author: "Domnic Raj"
+description: "A sample action that prints a message"
+branding:
+  icon: "check-circle"
+  color: "blue"
+inputs:
+  message:
+    description: "Message to print"
+    required: true
+    default: "Hello from Domnic Raj!"
+runs:
+  using: "docker"
+  image: "Dockerfile"
